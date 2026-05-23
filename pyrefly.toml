@@ -1,0 +1,13 @@
+# Pyrefly configuration — points to the project's virtual environment
+# so "Cannot find module" errors are resolved correctly.
+
+python_interpreter = ".venv/Scripts/python.exe"
+python_version = "3.12"
+
+# Tell Pyrefly about the venv's site-packages
+venv_path = ".venv"
+
+[search_path]
+site_package_paths = [
+    ".venv/Lib/site-packages"
+]

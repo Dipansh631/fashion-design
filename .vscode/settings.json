@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}\\backend"
+    ],
+    "python.analysis.venvPath": "${workspaceFolder}",
+    "python.venvPath": "${workspaceFolder}",
+    "python.analysis.autoSearchPaths": true,
+    "pyrefly.pythonInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+}

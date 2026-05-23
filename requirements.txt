@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+flask
+python-multipart
+requests
+pydantic
+pydantic-settings
+twilio
